@@ -1,0 +1,101 @@
+---
+title: "Useful R packages"
+author: "Stefano Meschiari"
+date: "June 16, 2015"
+output: 
+  md_document:
+    variant: markdown_github
+---
+# My list of useful R packages
+Run this Rmarkdown file to download all packages.
+
+* Download packages from GitHub
+```{r, eval=FALSE}
+install.packages('devtools')
+```
+* ggplot2 for powerful plotting, themes, and extra functions for arranging 
+```{r, eval=FALSE}
+install.packages('ggplot2')
+install.packages('ggthemes')
+install.packages('ggExtra')
+devtools::install_github('ggthemr', 'cttobin')
+```
+* Themes for ggplots
+```{r, eval=FALSE}
+install.packages('ggextra')
+```
+* Bit operations
+```{r, eval=FALSE}
+install.packages('bitops')
+```
+* Misc plots and data manipulation functions
+```{r, eval=FALSE}
+install.packages('gdata')
+install.packages('gplots')
+```
+* Functions to work on angular values
+```{r, eval=FALSE}
+install.packages('circular')
+```
+* Many misc functions for plots with base graphics
+```{r, eval=FALSE}
+install.packages('Hmisc')
+```
+* Enables piping among functions using the ```%>%``` operator
+```{r, eval=FALSE}
+install.packages('magrittr')
+```
+* Sane & consistent string handling
+```{r, eval=FALSE}
+install.packages('stringr')
+```
+* Generate HTML & LaTeX tables from R objects
+```{r, eval=FALSE}
+install.packages('xtable')
+```
+* Operations on R objects and data frames
+```{r, eval=FALSE}
+install.packages('plyr')
+```
+* Read CSV and text files faster
+```{r, eval=FALSE}
+install.packages('readr')
+```
+* Use additional fonts
+```{r, eval=FALSE}
+install.packages('showtext')
+```
+* Integration with plotly and bokeh
+```{r, eval=FALSE}
+install.packages('plotly')
+install.packages('rbokeh')
+```
+* Three-dimensional OpenGL plots
+```{r, eval=FALSE}
+install.packages('rgl')
+```
+* Parallel loops
+```{r, eval=FALSE}
+install.packages('foreach')
+```
+* Integrate C++ code in R
+```{r, eval=FALSE}
+install.packages('Rcpp')
+```
+* Solve differential equations numerically
+```{r, eval=FALSE}
+install.packages('deSolve')
+```
+* SCEPtER pipeline for estimating the stellar age, mass, and radius given observational effective temperature, [Fe/H], and astroseismic parameters. 
+```{r, eval=FALSE}
+install.packages('ScEptER')
+```
+* JSON support
+```{r, eval=FALSE}
+install.packages('jsonlite')
+```
+* Web scraping
+```{r, eval=FALSE}
+devtools::install_github("hadley/rvest")
+```
+
